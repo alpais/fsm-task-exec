@@ -1,0 +1,27 @@
+<package>
+  <description brief="kukaGratingTaskPkg">
+
+     kukaGratingTaskPkg
+
+  </description>
+  <author>alpais</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kukaGratingTaskPkg</url>
+  <depend package="MathLib"/>
+  <depend package="StdTools"/>
+  <depend package="RobotLib"/>
+  <depend package="RTK_pkg_tools"/>
+  <depend package="MotionGenerators"/>
+  <depend package="KUKARobotModel"/>
+  <depend package="roscpp"/>
+  <depend package="GLTools"/>
+  <depend package="tf"/>
+  <depend package="FRILibrary_ros"/>
+  <depend package="GMR"/>
+  <depend package="CDSExecution"/>
+  <export> <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath,${prefix}/lib -lkukaGratingModule "/> </export>
+
+</package>
+
+

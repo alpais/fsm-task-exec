@@ -1,0 +1,28 @@
+<Config>
+	<Packages>  KUKARobotModel  kukaGratingTaskPkg </Packages>
+    	<World> kukaGratingWorld  </World>
+	<Robot> KUKA
+        	<Name> KUKA </Name>
+ 		<RobotModule> kukaGratingModule
+			<Name> kukaGrating </Name>
+		</RobotModule>
+        	<ControlMode>   position    </ControlMode>
+        	<Args>                    </Args>
+        	<Origin> 0 0.0 0.0 </Origin>
+	        <Orient> 1.0  0.0  0.0 
+        	         0.0 1.0  0.0
+        	         0.0  0.0  1.0
+        	</Orient>            
+	</Robot>
+<Simulator>
+<Aspect>
+    <Robot>
+        <RefSize>0.08</RefSize>
+        <Transparency> false </Transparency>
+    </Robot>
+    <Object>
+        <RefSize>0.08</RefSize>
+    </Object>
+ </Aspect>
+</Simulator>
+</Config>
